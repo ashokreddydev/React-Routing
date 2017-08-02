@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-
 import MenuBar from './MenuBar'
 
 
@@ -14,8 +13,7 @@ class MainPage extends Component {
                 </div>
                
                     {this.props.children}
-           
-                
+                           
             </div>
         );
     }

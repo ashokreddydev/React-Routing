@@ -2,10 +2,10 @@ import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 //import MenuBar from './MenuBar'
 import MainPage from './MainPage'
-import './App.css'
+import './RegisterPage.css'
 
 
-class App extends Component {
+class RegisterPage extends Component {
   render() {
     return (
       <MainPage>
@@ -113,4 +113,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default RegisterPage;
